@@ -1,0 +1,414 @@
+<!--
+/************************************************
+created by 曲宗福 on 200506001 qulucky@sohu.com
+blue:
+************************************************/
+
+/* body */
+BODY
+{
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	FONT-FAMILY: Tahoma;
+	margin-top : 0;
+	margin-left : 0;
+	margin-right : 0;
+	margin-bottom : 0;
+}
+/* table */
+table 
+{
+	FONT-SIZE: 12px; 
+	COLOR: #333333; 
+	FONT-FAMILY: Tahoma;
+	border:0px ;
+	border-spacing :0;
+	padding:0;
+}
+/* link */
+a:visited {
+	COLOR: #0000ff; 
+	TEXT-DECORATION: underline
+	FONT-SIZE: 12px;
+}
+a:hover {
+	COLOR: #333333; 
+	TEXT-DECORATION: none
+	FONT-SIZE: 18px;
+}
+a:link {
+	COLOR: #0000ff; 
+	TEXT-DECORATION: underline
+	FONT-SIZE: 12px;
+}
+/* toplink */
+a.contenttop:visited {
+	COLOR: #E0E0E0; 
+	TEXT-DECORATION: underline
+}
+a.contenttop:hover {
+	COLOR: #E0E0E0; 
+	TEXT-DECORATION: none
+}
+a.contenttop:link {
+	COLOR: #E0E0E0; 
+	TEXT-DECORATION: underline
+}
+/******************
+content_left
+******************/
+/* left menu body */
+.BODY_left
+{
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	FONT-FAMILY: Tahoma;
+	margin-top : 0;
+	margin-left : 0;
+	margin-right : 0;
+	margin-bottom : 0;
+}
+/* left menu table*/
+.table_leftmenu
+{
+	FONT-SIZE: 12px; 
+	COLOR: #333333; 
+	FONT-FAMILY: Tahoma;
+	border-right:1px dashed #CCCCCC;
+	border-spacing :0;
+	padding:0;
+	width:99%;
+	height:100%;
+	border-collapse:collapse;
+	/*background-color:#f0f0f0;*/
+}
+/******************
+content_top
+******************/
+/* content_top.asp's table  */
+.table_Content_Top 
+{
+	background-image: url("../../images/contenttopbg.gif");
+	height:30px;
+	width:100%;
+	color:#dddddd
+}
+/******************
+content_main
+******************/
+/* show page info on top 's table */
+.table_pageinfo 
+{
+	border-collapse:collapse;
+	/*background-image: url("../../images/pageinfobg.gif");*/
+	/*background-color:#b0c4de;*/
+	background-color:#E8F1FF;
+	width:100%;
+	FONT-SIZE: 11px; 
+	COLOR: #333333; 
+	FONT-FAMILY: Tahoma;
+	height:25px;
+	border-bottom:1px #CEE3CC dashed;
+}
+/* table on page top */
+.table_pagetop 
+{
+	
+	BORDER:#000000 0px solid;
+	width:100%;
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+}
+/* show table for input */
+.table_input 
+{
+	BORDER: #dddddd 1px solid; 
+	border-collapse:collapse;
+	BACKGROUND-COLOR: #ffffee; 
+	width:100%;
+	FONT-SIZE: 11px; 
+	COLOR: #333333; 
+	FONT-FAMILY: Tahoma;
+}
+/* show table for modify */
+.table_input_modify 
+{
+	background-color:#dddddd;
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Tahoma;
+	border:#333333 1px solid; 
+}
+
+/* show table for output */
+.table_output 
+{
+	width:100%;
+	background-color:#CCCCCC;
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	border-bottom:#333333 1px solid;
+}
+.table_show 
+{
+	background-color:#FF7901;
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	border:#333333 0px solid; 
+}
+.td_show 
+{
+	background-color:#eeeeee;
+}
+/* show div for pagenum info  */
+.div_pageinfo 
+{
+	BORDER-TOP: white 1px inset;
+	/*BORDER-RIGHT: white 0px inset;
+	BORDER-LEFT: white 1px inset; 
+	BORDER-BOTTOM: white 0px inset; 
+	VISIBILITY: hidden;*/
+	OVERFLOW: hidden;
+	POSITION: absolute;
+
+}
+/* show table for pagenum info */
+.table_page
+{
+	BORDER: #ffffff 0px solid; 
+	border-collapse:collapse;
+	padding:3px;
+	width:100%;
+}
+/*输入区域td*/
+.td_input
+{
+	border:#cccccc 1px solid;
+	border-collapse:collapse;
+	padding:1px;
+	border-spacing:0px;
+	FONT-SIZE: 11px; 
+	COLOR: 000000#; 
+	FONT-FAMILY: Tahoma;
+	
+} 
+/* show header td of output table  */
+.td_head
+{
+	background-color:#cccccc; 
+	border-bottom:#000000 1px solid;
+	border-top:#eeeeee 1px solid; 
+	border-left:#eeeeee 1px solid; 
+	border-right:#000000 1px solid; 
+	padding:1px;
+	FONT-SIZE: 11px; 
+	COLOR: 000000; 
+	FONT-FAMILY: Tahoma;
+	height:20px
+} 
+/* show head tr of output table */
+.tr_head
+{
+	POSITION: relative
+} 
+/*报表内容*/
+.td_content
+{
+	background-color:#ffffff;
+	border-collapse:collapse;
+	padding:1px;
+	border-spacing:0px;
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Tahoma;
+	
+} 
+/*报表内容5行*/
+.td_content_5
+{
+	background-color:#EEEEEE;
+	border-collapse:collapse;
+	padding:1px;
+	border-spacing:0px;
+	FONT-SIZE: 11px; 
+	COLOR: VFF0000X; 
+	FONT-FAMILY: Tahoma;
+	
+}
+/* show td bottom of output table */
+.td_bottom
+{
+	background-color:#cccccc;
+	border-bottom:#000000 1px solid;
+	border-top:#eeeeee 1px solid; 
+	border-left:#eeeeee 1px solid; 
+	border-right:#000000 1px solid; 
+	height:25px;
+}
+
+/* 列表项目效果的CSS定义*/
+li
+{
+	list-style-image: url(Skin/sg_blue/j32.gif); 
+} 
+/* 文本框的CSS定义:对应CSS中的“INPUT”，这里为文本框的风格设置，可定义内容为背景、字体、颜色、边框等 */
+.input
+{
+	FONT-SIZE: 8pt; 
+	COLOR: #333333; 
+	FONT-FAMILY: Tahoma;
+	border-bottom:#333333 1px solid;
+	border-top:#333333 0px solid; 
+	border-left:#333333 0px solid; 
+	border-right:#333333 0px solid;
+	background-color:#ffffff;
+}
+.inputreadonly
+{
+	FONT-SIZE: 8pt; 
+	COLOR: #999999; 
+	FONT-FAMILY: Tahoma;
+	border-bottom:#999999 1px solid;
+	border-top:#333333 0px solid; 
+	border-left:#333333 0px solid; 
+	border-right:#333333 0px solid;
+	background-color:#ffffff;
+}
+/* button CSS定义*/
+.button {
+	BORDER: #333333 1px solid; 
+	PADDING-RIGHT: -8px; 
+	PADDING-LEFT: -8px; 
+	FONT-SIZE: 7.9pt;
+	FONT-FAMILY: Tahoma;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#b0c4fe);
+	CURSOR: hand; 
+	COLOR: black;
+	PADDING-TOP: 0px; 
+}
+/* button on mouseover CSS定义*/
+.button_mouseover {
+	BORDER: #aa9933 1px solid; 
+	PADDING-RIGHT: -8px;
+	PADDING-LEFT: -8px; 
+	FONT-SIZE: 7.9pt; 
+	FONT-FAMILY: Tahoma;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#eeeeee);
+	CURSOR: hand; 
+	COLOR: black; 
+	PADDING-TOP: 0px;
+}
+
+/* select CSS定义*/
+.select {
+	FONT-SIZE: 8.7pt;
+	HEIGHT: 15px;
+	BACKGROUND-COLOR:#eeeeee;
+	PADDING: -8px;
+}
+/* 雕刻效果字体*/
+.font_index_shadow { 
+	color: #1B2834; 
+	FONT-FAMILY: Tahoma;
+	filter: DropShadow(Color=#ffffff, OffX=1, OffY=2, Positive=2)
+}
+.font_index_title_shadow { 
+	color: #1B2834; 
+	filter: DropShadow(Color=#ffffff, OffX=1, OffY=2, Positive=2)
+}
+.spanhref {
+	cursor:hand;
+	color:#0000FF
+}
+
+/*主固定层*/
+#mainDiv {
+	overflow: auto;
+	clear: both;
+	border: 0px solid #CCCCCC;
+	border-left:#cccccc 1px solid;
+}
+.FitRemarkMax{
+	height:expression(document.body.clientHeight-this.offsetTop-2);
+	width:100%;
+	z-index:2;
+}
+/*带分页情况*/
+.FitNormal{
+	height:expression(document.body.clientHeight-this.offsetTop-19);
+	width:100%;
+}
+/*首行固定报表*/
+#scrollTable {
+	width:100%;
+	border:none;
+	background-color:#FFFFFF;
+	float:left;
+}
+#scrollTable ul {
+	margin-top:4px;
+	margin-bottom:4px;
+}
+/*固定表头*/
+#scrollTable thead th{
+	background-color:#cccccc; 
+	border-bottom:#999999 1px solid;
+	border-top:#FFFFFF 1px solid; 
+	border-left:#FFFFFF 1px solid; 
+	border-right:#999999 1px solid; 
+	padding:0px;
+	height:20px;
+}
+#scrollTable thead tr.fixedTr {
+	top: expression(document.getElementById("mainDiv").scrollTop) ; 
+	position: relative; 
+	z-index:2;
+}
+/*固定列*/
+#scrollTable tbody td.fixTdallowWrap{
+	white-space:normal;
+	text-align:center;
+	position: relative;
+	z-index:0;
+}
+/*报表内容tr背景色切换*/
+#scrollTable tbody tr.lightbgcolor
+{
+	background-color:#FFFFFF; 	
+}
+#scrollTable tbody tr.darkbgcolor
+{
+	background-color:#EEEEEE; 	
+}
+#scrollTable tbody tr.clickbgcolor
+{
+	background-color:#b0c4de; 	
+}
+/*报表内容td*/
+#scrollTable tbody td {
+	white-space:nowrap;
+	padding-left:1px;
+	padding-right:1px;
+	padding-bottom:0px;
+	padding-top:3px;
+	border-right: 1px solid #CCCCCC; 
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.sort-arrow {
+width: 11px;
+height: 11px;
+background-position: center center;
+background-repeat: no-repeat;
+margin: 0 2px;
+}
+
+.sort-arrow.descending {
+background-image: url("/images/sortdown.gif");
+
+}
+
+.sort-arrow.ascending {
+background-image: url("/images/sortup.gif");
+}
+-->

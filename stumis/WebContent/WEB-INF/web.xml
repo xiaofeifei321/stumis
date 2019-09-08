@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee"
+	 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>stumis</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<context-param>
+		<param-name>server</param-name>
+		<param-value>47.100.200.237</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbname</param-name>
+		<param-value>out</param-value>
+	</context-param>
+	<context-param>
+		<param-name>user</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>pwd</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	
+	<!--用户登录  -->
+	<servlet>
+		<display-name>用户登录</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.mis.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description>初始化获得数据</description>
+		<display-name>GetStudentServlet</display-name>
+		<servlet-name>GetStudentServlet</servlet-name>
+		<servlet-class>com.mis.servlet.GetStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetStudentServlet</servlet-name>
+		<url-pattern>/getBook</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<display-name>GetStudentServlet_extend</display-name>
+		<servlet-name>GetStudentServlet_extend</servlet-name>
+		<servlet-class>com.mis.servlet.GetStudentServlet_extend</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetStudentServlet_extend</servlet-name>
+		<url-pattern>/getStudent_extend</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,18 @@
+.login_td {
+	font-family: ËÎÌו;
+	font-size: 12px;
+	color: #000066;
+}
+
+.login_button {
+	padding: 2 4 0 4;
+	font-size: 12px;
+	height: 18;
+	background: url(./images/button_bk.gif) border-width : 1px;
+	cursor: hand;
+	border: 1px solid #003c74;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}

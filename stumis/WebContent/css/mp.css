@@ -1,0 +1,221 @@
+TD	{
+		font-family:宋体;
+		font-size:12px;
+		border-color:#EBEBEB;
+	}
+
+BODY	{
+			font-family:宋体;
+			font-size:12pt;
+			background-color:#F8F8F8;
+			scrollbar-arrow-color:#4d6185;
+			scrollbar-base-color:#d4e2f4;
+			scrollbar-track-color: #F2F2F2;
+			scrollbar-darkshadow-color: #d4e2f4;
+			margin-left:0px;
+			margin-top:0px;
+			margin-right:0px;
+			margin-bottom:0px;
+		}
+
+TABLE	{ 
+			width: 100%;
+			border-color:#FFFFFF;
+			/*margin:1px 1px 1px;*/
+			background-color:#F8F8F8;
+		}
+				
+TABLE TR TH	{
+				background:url(../images/table_th.gif);
+				font-family:"宋体",Tahoma, Geneva, sans-serif;
+				font-size:12px;
+				text-align:center;
+
+				padding-top:2px;
+				padding-bottom:1px;
+				color:black;
+				height:22px;
+				border-right: #8db2e3 1px solid;
+				border-bottom: #8db2e3 1px solid;
+				/*c6d9e5*/
+				font-weight:bold;
+			}
+
+INPUT.BUTTON	{
+					padding: 2 4 0 4;
+					font-size:12px;
+					height:20;
+					background-color: #EEEEEE;
+					border-width:1;
+					cursor: hand;
+					border: 1px solid #000000; 
+					padding-left: 4px; 
+					padding-right: 4px; 
+					padding-top: 1px; 
+					padding-bottom:1px;
+				}
+
+BUTTON	{
+			padding: 2 4 0 4;
+			font-size:12px;
+			height:18;
+			background:url(../images/button_bk.gif)
+			border-width:1px;
+			cursor: hand;
+			border: 1px solid #003c74; 
+			padding-left: 4px; 
+			padding-right: 4px; 
+			padding-top: 1px; 
+			padding-bottom: 1px
+		}
+IMG	{
+		cursor:hand;
+	}
+
+TEXTAREA	{				
+				font-family: Tahoma, sans-serif;
+				font-size: 12px;
+				border-width: 1px;
+				border-color: #7F9DB9;
+				border-style: solid;
+				text-align: left;
+				cursor: text;
+				height:60px;
+				/*scrollbar-arrow-color:#202020;
+				scrollbar-base-color:#F6F6F6;
+				scrollbar-track-color: #F2F2F2;
+				scrollbar-3dlight-color: #F2F2F2;
+				scrollbar-darkshadow-color: #F2F2F2;
+				scrollbar-highlight-color: #F2F2F2;
+				background-color: #EFF7FF;*/
+				overflow:hidden;
+				width:100%;
+			}			
+			
+			
+.title_td	{ 
+				background:url(../images/panel-title-light-bg.gif)	
+				font-family:Arial, "宋体", Tahoma, "Times NEW Roman";
+				font-size:13px;
+				font-weight:bold;
+				padding-left: 3px;
+				padding-right: 3px;
+				padding-top: 3px;
+				padding-bottom: 2px;
+				height:24px;
+				color:#15428b;
+			}
+.item_td	{
+				background-color:#ebf3fd;              
+				font-family:宋体;
+				font-size:12px;
+				border:1px;
+				border-style:solid;
+				border-color:#8db2e3;
+			}
+.input_td	{
+				         
+				font-family:宋体;
+				font-size:12px;
+				border:1px;
+				border-style:solid;
+				border-color:#8db2e3;
+				background-color:#F8F8F8;
+			}
+.input_button	{
+					padding: 2 4 0 4;
+					font-size:12px;
+					height:20;
+					background-color: #EEEEEE;
+					border-width:1;
+					cursor: hand;
+					border: 1px solid #000000; 
+					padding-left: 4px; 
+					padding-right: 4px; 
+					padding-top: 1px; 
+					padding-bottom:1px;
+				}
+.menu2_td	{
+				font-size:14px;
+				font-weight:bold;
+			}
+.menu3_td	{
+				font-family:宋体;
+				font-size:13px;
+			}
+.guide_td	{             
+				font-family:宋体;
+				font-size:16px;
+				font-weight:bold;
+				padding-left: 3px;
+				padding-right: 3px;
+				padding-top: 3px;
+				padding-bottom: 3px;;
+			}
+.input_input   {
+					font-family: 宋体;
+					font-size: 12px;
+					border: 1px solid #7F9DB9;	
+				}
+				
+.list_table td	{
+					border-right: #8db2e3 1px solid;
+					border-bottom: #8db2e3 1px solid;
+					height:24px;
+				}
+			
+.list_table	{
+				border-top: #8db2e3 1px solid;
+				border-left: #8db2e3 1px solid;
+				margin:1px 3px 1px;
+			}
+.top_header	{
+				background:url(../images/bk_image.gif);
+				margin:0px;
+				padding:0px;
+				width:100%;
+				height:100%;
+				text-align:inherit;
+			}
+.list_div	{ 
+				FONT-SIZE:12px;
+				border-top:0; 
+				width:100%;
+				height:100%;
+				overflow-y:scroll; 
+				overflow-x:auto;
+			}
+.input_drop	{
+				font-family: Tahoma, sans-serif;
+				font-size: 11px;
+				border-width: 1px;
+				border-color: #7F9DB9;
+				border-style: solid;
+				text-align: left;
+				
+				scrollbar-arrow-color:#202020;
+				scrollbar-base-color:#F6F6F6;
+				scrollbar-track-color: #F2F2F2;
+				scrollbar-3dlight-color: #F2F2F2;
+				scrollbar-darkshadow-color: #F2F2F2;
+				scrollbar-highlight-color: #F2F2F2;
+			}
+.headfont{
+	color:#ffffff;	
+	font-weight:600;
+	font-size:13px;
+	font-family:"宋体",Tahoma, Geneva, sans-serif;
+	margin-top:5px;
+}
+a:visited {
+	color:#15428b;
+}
+a:link{
+	color:#15428b;
+}
+a:active{
+	color:#3D3D3D;
+}
+a:hover {
+	color: #3D3D3D;
+}

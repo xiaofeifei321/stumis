@@ -1,0 +1,42 @@
+body{
+   font-family:'黑体','宋体';
+   font-size:14px;
+}
+.list_table td {
+	border-right: #8db2e3 1px solid;
+	border-bottom: #8db2e3 1px solid;
+	height: 24px;
+}
+
+.list_table {
+	border-top: #8db2e3 1px solid;
+	border-left: #8db2e3 1px solid;
+	margin: 1px 3px 1px;
+}
+
+TABLE TR TH {
+	background: url(images/table_th.gif);
+	font-family: "宋体", Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	color: black;
+	height: 22px;
+	border-right: #8db2e3 1px solid;
+	border-bottom: #8db2e3 1px solid;
+	/*c6d9e5*/
+	font-weight: bold;
+}
+#updateDiv{
+    positin:fixed;
+    width:0px;
+    height:0px;
+    overflow:hidden;
+   top:200px;
+   font-family:'黑体','宋体';
+   font-size:14px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:50px;
+}

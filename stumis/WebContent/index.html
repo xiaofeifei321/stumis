@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+<TITLE>登录主页面</TITLE>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<script src="js_jquery/index.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="css/index.css">
+</HEAD>
+<body bgColor=#ffffff>
+<table
+	style="background-image: url(./images/login_Page/logPage.jpg); height: 100%; width: 100%">
+	<tr align="center" valign="middle">
+		<td>
+		<TABLE style="height: 300; width: 492" cellSpacing=0 cellPadding=0
+			border=0 align="center">
+			<TBODY>
+				<TR valign="middle">
+					<TD colSpan=2
+						style="background-image: url(./images/login_Page/loginPage_01.jpg)"
+						height=44><font face="黑体" size="4px" color="#196ed1"
+						style="padding-left: 20px; vertical-align: middle">增删改查及分页效果演示系统-用户登录</font></TD>
+				</TR>
+				<TR>
+					<TD width="203"><IMG height=200 alt=""
+						src="./images/login_Page/loginPage_02.jpg" width=202></TD>
+					<TD
+						style="background-image: url(./images/login_Page/loginPage_03.jpg)"
+						height=200 width=497>
+					<form method="POST" name="Regsiter" action="LoginServlet">
+					<table>
+						<tr>
+							<td width="66" height="20" class="login_td">登录名：</td>
+							<td width="115" height="20" class="login_td"><input
+								type="text" name="username" value="" style="WIDTH: 110px"></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td height="20" class="login_td">密 码：</td>
+							<td height="20" class="login_td"><input type="password"
+								name="password" value="" style="WIDTH: 110px"></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td height="20"></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td height="20" colspan="2" align="center">
+							<button class="login_button" onClick=res();>重置</button>
+							&nbsp;
+							<button class="login_button" onClick=loginClick();>登录</button>
+							&nbsp;</td>
+							<td ></td>
+						</tr>
+					</table>
+					</form>
+					</TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+		</td>
+	</tr>
+</table>
+</BODY>
+</HTML>
